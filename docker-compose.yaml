@@ -28,8 +28,8 @@ services:
       - "5432"
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres-pass
-      - POSTGRES_DB=medium_db
+      - POSTGRES_PASSWORD=0921
+      - POSTGRES_DB=medium_clone
     networks:
       - medium_network
 
